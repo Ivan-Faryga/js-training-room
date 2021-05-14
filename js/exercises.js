@@ -280,3 +280,84 @@ function checkIfCanAccessContent(subType) {
 //   // Change code above this line
 //   return message;
 // }
+
+// ================= #29 applying switch with default ==========================
+// function getShippingCost(country) {
+//   let message;
+//   // Change code below this line
+// 	switch (country) {
+//       case 'China' :
+//         price = 100;
+//         message = `Shipping to ${country} will cost ${price} credits`;
+//         break;
+
+//         case 'Chile' :
+//         price = 250;
+//         message = `Shipping to ${country} will cost ${price} credits`;
+//         break;
+
+//         case 'Australia' :
+//         price = 170;
+//         message = `Shipping to ${country} will cost ${price} credits`;
+//         break;
+
+//         case 'Jamaica' :
+//         price = 120;
+//         message = `Shipping to ${country} will cost ${price} credits`;
+//         break;
+
+//         default :
+//         message = 'Sorry, there is no delivery to your country';
+// }
+
+//   // Change code above this line
+//   return message;
+// }
+
+//   // Change code above this line
+//   return message;
+// }
+
+//========================= #31 [] ==========================
+
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = console.log(courseTopic.length);
+// const firstElement = console.log(courseTopic[0]);
+// const lastElement = console.log(courseTopic[courseTopic.length - 1]);
+
+// // Change code above this line
+
+//========================= #32 Метод slice() ==========================
+
+// function getSubstring(string, length) {
+//   const substring = string.slice(string, length); // Change this line
+
+//   return substring;
+// }
+
+//========================= #33 Задача: форматирование сообщения) ==========================
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (message.length <= maxLength) {
+//     result = message;
+//   } else {
+//     result = message.slice(0, maxLength) + "...";
+//   }
+//   /// Change code above this line
+//   return result;
+// }
+
+//========================= #36 Задача: проверка спама ==========================
+
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+//   message = message.toLowerCase();
+//   result = message.includes("spam") || message.includes("sale");
+//   // Change code above this line
+//   return result;
+// }
