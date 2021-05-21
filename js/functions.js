@@ -36,17 +36,69 @@
 // Напиши функцию getExtremeElements(array) которая принимает один параметр array -массив элементов произвольной длины.
 // Функция должна возвращать массив из двух элементов - первого и последнего элемента параметра array.
 
-function getExtremeElements(array) {
-  // Change code below this line
-  const firstElement = array[0];
-  const lastElement = array[array.length - 1];
-  const message = [firstElement, lastElement];
+// function getExtremeElements(array) {
+//   // Change code below this line
+//   const firstElement = array[0];
+//   const lastElement = array[array.length - 1];
+//   const message = [firstElement, lastElement];
 
-  return message;
+//   return message;
 
-  // Change code above this line
-}
+//   // Change code above this line
+// }
 
-console.log(getExtremeElements([1, 2, 3, 4, 5]));
-console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
-console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+// console.log(getExtremeElements([1, 2, 3, 4, 5]));
+// console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+// console.log(getExtremeElements(["apple", "peach", "pear", "banana"]));
+
+//======================  exercise 21/32 ====================
+
+// Напиши функцию findLongestWord(string),
+//   которая принимает произвольную строку состоящую
+// только из слов разделённых пробелом(параметр string)
+// и возвращает самое длинное слово в этой строке.
+
+// function findLongestWord(string) {
+//   // Change code below this line
+//   const word = string.split(" ");
+//   // console.log(word);
+//   let longestWordLength = word[0].length;
+//   let longestWord = word[0];
+
+//   // console.log(word);
+
+//   for (let i = 0; i < word.length; i += 1) {
+//     if (word[i].length > longestWordLength) {
+//       longestWordLength = word[i].length;
+//       longestWord = word[i];
+//     }
+//   }
+
+//   return longestWord;
+
+//   // console.log(longestWord);
+// } // Change code above this line
+
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+// console.log(findLongestWord("Google do a roll"));
+// console.log(findLongestWord("May the force be with you"));
+
+//======================  exercise 22/32 ====================
+
+// Дополни код функции createArrayOfNumbers(min, max) так,
+// чтобы она возвращала массив всех целых чисел от значения min до max.
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+
+//   for (i = min; i <= max; i += 1) {
+//     numbers.push(i);
+//   }
+
+//   return numbers;
+// }
+
+// createArrayOfNumbers(1, 3);
+// createArrayOfNumbers(14, 17);
+// createArrayOfNumbers(29, 34);
